@@ -67,7 +67,7 @@ export const handler = async (event) => {
         "anthropic-version": "2023-06-01"
       },
       body: JSON.stringify({
-        model: "claude-opus-4-5",
+        model: "claude-haiku-4-5-20251001",
         max_tokens: 8000,
         system: "Je bent een senior CSRD/ESG-materialiteitsexpert. Antwoord uitsluitend met geldige JSON zonder enige andere tekst of markdown.",
         messages: [{ role: "user", content: PROMPT(bedrijf) }]
