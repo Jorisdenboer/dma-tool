@@ -3,5 +3,8 @@
     "api/analyse.js": {
       "maxDuration": 60
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/api/analyse", "destination": "/api/analyse.js" }
+  ]
 }
